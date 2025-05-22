@@ -1,26 +1,31 @@
-# EX 9 C program to find the sum of odd digits using do while loop.
+# EX 9  C PROGRAM TO PRINT THE STRING "KEYBOARD" N NUMBER OF 
+TIMES 
 ## DATE:
 ## AIM:
-To write a C program to find the sum of odd digits using do while loop.
-
+To write a program to print the string "KEYBOARD" n number of times.
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
-
+1. Start. 
+2. Declare the variables i,n. 
+3. Prompt the user to enter a value. 
+4. Read the value using scanf. 
+5. Run the for loop for “i” variable. 
+6. Print “KEYBOARD\n”. 
+7. End.
 ## Program:
 ```
-/*
-Program to find the sum of odd digits using do while loop.
-Developed by: 
-RegisterNumber:  
-*/
+#include<stdio.h> 
+int main() 
+{ 
+int i,n; 
+scanf("%d",&n); 
+for(i=1;i<=n;i++) 
+{printf("KEYBOARD\n"); 
+}return 0; 
+} 
 ```
 
 ## Output:
-
+1 KEYBOARD
 
 
 ## Result:
